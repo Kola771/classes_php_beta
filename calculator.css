@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(27, 26, 26);
+    color: white;
+    margin: 0;
+    }
+
+    form {
+        margin: 10% auto;
+        max-width: 50%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: .8em;
+        padding: .8em;
+        border: 2px solid white;
+    }
+
+    h2 {
+        margin: 0;
+        font-size: 30px;
+        color: rgb(42, 129, 187);
+    }
+
+    form input, select, button{
+        padding: .5em;
+    }
+
+    form input, select{
+        flex-basis: 100%;
+        padding: .5em;
+    }
+
+    form button{
+        flex-basis: 50%;
+        border: none;
+        background-color: aquamarine;
+        border-radius: .8em;
+    }
+
+    p {
+        text-align: center;
+        font-size: 18px;
+    }
